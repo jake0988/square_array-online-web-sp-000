@@ -1,4 +1,4 @@
 def square_array(array)
-b = array.collect |array| (array**2)
+b = array.collect |c| (c**2)
   b
 end
